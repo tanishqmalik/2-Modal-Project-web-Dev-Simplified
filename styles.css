@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+.whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.modal{
+    height: 80vh;
+    overflow: scroll;
+    margin-right: 10px;
+    max-width: 80%;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #777;
+}
+
+
+.title{
+    font-size: 1.5em;
+    padding: 15px;
+    align-items: center;
+}
+
+.close-button{
+    border: none;
+    border-color: black;
+    background: none;
+    font-size: 1.5rem;
+    margin-right: 7px;
+    font-weight: bolder;
+    cursor: pointer
+}
+
+.down{
+    display: flex;
+    border-top: 1px solid #777;
+    margin-bottom: 10px;
+    padding: 5px;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.body{
+    flex-grow: 1;
+    overflow: scroll;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.ok{
+    color: white;
+    background-color: rgb(12, 157, 157);
+    border: none;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.ok:hover{
+    background-color: rgb(44, 172, 172);
+}
+
+.cancel{
+    color: white;
+    background-color: rgb(215, 23, 23);
+    border: none;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cancel:hover{
+    background-color: rgb(255, 0, 0);
+}
