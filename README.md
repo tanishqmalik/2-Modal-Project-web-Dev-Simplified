@@ -1,1 +1,1 @@
-visit website at:- 
+visit website at:- https://tanishqmalik.github.io/Modal-Project-web-Dev-Simplified/
